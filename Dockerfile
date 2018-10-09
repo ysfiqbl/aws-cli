@@ -2,7 +2,7 @@ FROM python:3.7-slim
 MAINTAINER Yusuf Iqbal <yusuf.iqbal@devfactory.com>
 
 RUN apt-get update
-RUN apt-get install --no-install-suggests -y groff-base
+RUN apt-get install --no-install-suggests -y groff-base ssh
 
 # Set the application directory
 WORKDIR /app
